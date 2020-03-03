@@ -27,4 +27,8 @@ module.exports = {
             jsx: true,
         },
     },
+    env: {
+        node: true,
+        commonjs: true,
+    },
 }
