@@ -1,0 +1,16 @@
+{
+    "name": "@rinsuki/eslint-config",
+    "version": "1.0.0",
+    "description": "my eslint config",
+    "main": "index.js",
+    "author": "rinsuki",
+    "license": "MIT",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^2.22.0",
+        "@typescript-eslint/parser": "^2.22.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.18.3",
+        "eslint-plugin-unused-imports": "^0.1.2"
+    }
+}
