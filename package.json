@@ -1,6 +1,6 @@
 {
     "name": "@rinsuki/eslint-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "my eslint config",
     "main": "index.js",
     "author": "rinsuki",
