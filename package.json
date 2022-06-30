@@ -6,6 +6,11 @@
     "author": "rinsuki",
     "license": "MIT",
     "type": "commonjs",
+    "files": [
+        "index.js",
+        "without-ts.js",
+        "README.md"
+    ],
     "scripts": {
         "lint": "eslint ."
     },
