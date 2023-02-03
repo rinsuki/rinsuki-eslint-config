@@ -57,10 +57,10 @@
   resolved "https://registry.yarnpkg.com/@rinsuki/prettier-config/-/prettier-config-1.3.0.tgz#38e22dce2e27f8b92169d43c1693737da74c8d1f"
   integrity sha512-CELHw1b0Xn3KU+Reru5onspiFlWUVpk1W9tvknX4vBjSrEMozHYzxRA6ILDcgiFl3rARDe0JjjjAt0Y73kvWZQ==
 
-"@rushstack/eslint-patch@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.3.tgz#6801033be7ff87a6b7cadaf5b337c9f366a3c4b0"
-  integrity sha512-WiBSI6JBIhC6LRIsB2Kwh8DsGTlbBU+mLRxJmAe3LjHTdkDpwIbEOZgoXBbZilk/vlfjK8i6nKRAvIRn1XaIMw==
+"@rushstack/eslint-patch@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
+  integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
 
 "@types/json-schema@^7.0.9":
   version "7.0.11"
