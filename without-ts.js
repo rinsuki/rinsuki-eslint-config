@@ -22,8 +22,12 @@ module.exports = {
         "plugin:import/typescript",
     ],
     settings: {
-        react: {
+        "react": {
             version: "detect",
+        },
+        "import/resolver": {
+            typescript: true,
+            node: true,
         },
     },
     rules: {
@@ -39,7 +43,7 @@ module.exports = {
         "prefer-object-has-own": "error",
         "prefer-object-spread": "warn",
         "prefer-rest-params": "warn",
-        radix: ["error", "always"],
+        "radix": ["error", "always"],
         "require-atomic-updates": [
             "error",
             {
@@ -47,7 +51,7 @@ module.exports = {
             },
         ],
         "spaced-comment": ["error", "always"],
-        yoda: ["error", "never", { exceptRange: true }],
+        "yoda": ["error", "never", { exceptRange: true }],
 
         "array-bracket-newline": ["error", "consistent"],
         "arrow-spacing": "error",
@@ -92,8 +96,8 @@ module.exports = {
         "import/order": [
             "warn",
             {
-                groups: ["builtin", ["external", "internal"], "parent", "sibling", "index"],
-                alphabetize: { order: "asc" },
+                "groups": ["builtin", ["external", "internal"], "parent", "sibling", "index"],
+                "alphabetize": { order: "asc" },
                 "newlines-between": "always",
             },
         ],
@@ -101,7 +105,7 @@ module.exports = {
         "import/no-nodejs-modules": [
             "warn",
             {
-                allow: Object.keys(resolve.core).filter((n) => n.startsWith("node:")),
+                allow: Object.keys(resolve.core).filter(n => n.startsWith("node:")),
             },
         ],
         // TODO コメント書いたら忘れないように warning してほしい
