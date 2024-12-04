@@ -31,7 +31,7 @@
     "peerDependencies": {
         "@rinsuki/prettier-config": ">=1.5.0",
         "eslint": ">=8.0.0",
-        "prettier": ">=2.8.3",
+        "prettier": ">=3.4.2",
         "typescript": ">=3.7.0"
     },
     "publishConfig": {
@@ -40,7 +40,7 @@
     "devDependencies": {
         "@rinsuki/prettier-config": "^1.5.0",
         "eslint": "^8.18.0",
-        "prettier": "^2.8.3",
+        "prettier": "^3.4.2",
         "typescript": "^4.7.4"
     },
     "prettier": "@rinsuki/prettier-config"
